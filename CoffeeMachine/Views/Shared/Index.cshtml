@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<!--
+    Loyalé - HTML5 Template - version 1.0
+    Copyright (C) 2016 7Studio - seventhemes.com All rights reserved.
+    https://themeforest.net/licenses/terms/regular
+-->
+<html lang="en">
+
+<!-- Mirrored from demo.seventhemes.com/html/loyale/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Mar 2018 20:32:18 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title and description -->
+    <title>Coffee-Thé Machine</title>
+    <meta name="description" content="Loyalé - beautiful, responsive HTML5 site template">
+
+    <!-- Favicon -->
+    <link rel="icon" href="~/Content/Index/assets/images/favicon.png">
+
+    <!--Stylesheets -->
+    <link rel="stylesheet" href="~/Content/Index/assets/css/style.css">
+    <link rel="stylesheet" href="~/Content/Index/assets/css/custom.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700">
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="site">
+        <!-- Main sidebar -->
+        <div class="main-sidebar">
+            <div class="table">
+
+                <!-- Header -->
+                <header class="header">
+                    <div class="logo">
+                        <a href="index.html">
+
+                        </a>
+                    </div>
+                </header>
+                <!-- Main menu -->
+                <div class="middle">
+                    <div class="main-nav cell">
+                        <span class="horizontal-line"></span>
+                        <ul class="menu">
+                            <li class="active">@Html.ActionLink("Accueil", "Index", "Home")</li>
+
+
+
+                            <li>@Html.ActionLink("Commander", "Add", "Commande")</li>
+                        </ul>
+                        <span class="horizontal-line"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Mobile menu - toggle button -->
+            <button class="menu-button mobile-toggle"><span></span></button>
+        </div>
+    </div>
+
+    <!-- Background section -->
+    @RenderBody()
+    <!-- Mobile menu -->
+    <div class="mobile-overlay">
+        <button class="mobile-toggle dismiss"><span></span></button>
+        <div class="mobile-nav clearfix"></div>
+    </div>
+
+    <!-- To-top button -->
+    <button class="totop">&uarr;</button>
+
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/alertify")
+    <script src="~/Content/Index/assets/js/jquery-3.1.0.min.js"></script>
+    <script src="~/Content/Index/assets/js/lightbox.min.js"></script>
+    <script src="~/Content/Index/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/Content/Index/assets/js/bs.carousel.min.js"></script>
+    <script src="~/Content/Index/assets/js/jquery.isotope.min.js"></script>
+    <script src="~/Content/Index/assets/js/scripts.js"></script>
+</body>
+<!-- Mirrored from demo.seventhemes.com/html/loyale/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Mar 2018 20:33:20 GMT -->
+</html>

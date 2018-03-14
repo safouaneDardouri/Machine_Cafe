@@ -1,0 +1,17 @@
+C:\Users\Guere\Downloads\CoffeeMachine\CoffeeMachine\CoffeeLachineAPIs\obj\Debug\CoffeeLachineAPIs.csprojResolveAssemblyReference.cache
+C:\Users\Guere\Downloads\CoffeeMachine\CoffeeMachine\CoffeeLachineAPIs\obj\Debug\CoffeeLachineAPIs.csproj.CoreCompileInputs.cache
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\CoffeeLachineAPIs.dll.config
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\CoffeeLachineAPIs.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\CoffeeLachineAPIs.pdb
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\CoffeeMachine.core.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\Microsoft.AspNet.Identity.Core.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\MySql.Data.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\DotNetTN.Connector.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\CoffeeMachine.core.pdb
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\CoffeeMachine.core.dll.config
+C:\CoffeeMachine\CoffeeLachineAPIs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CoffeeMachine\CoffeeLachineAPIs\obj\Debug\CoffeeLachineAPIs.csprojResolveAssemblyReference.cache
+C:\CoffeeMachine\CoffeeLachineAPIs\obj\Debug\CoffeeLachineAPIs.csproj.CoreCompileInputs.cache
+C:\CoffeeMachine\CoffeeLachineAPIs\obj\Debug\CoffeeLachineAPIs.dll
+C:\CoffeeMachine\CoffeeLachineAPIs\obj\Debug\CoffeeLachineAPIs.pdb

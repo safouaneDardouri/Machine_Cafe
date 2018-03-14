@@ -1,0 +1,9 @@
+C:\CoffeeMachine\CoffeeMachineTest\bin\CoffeeMachineTest.dll.config
+C:\CoffeeMachine\CoffeeMachineTest\bin\CoffeeMachineTest.dll
+C:\CoffeeMachine\CoffeeMachineTest\bin\CoffeeMachineTest.pdb
+C:\CoffeeMachine\CoffeeMachineTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CoffeeMachine\CoffeeMachineTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csproj.CoreCompileInputs.cache
+C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.dll
+C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.pdb
+C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csprojResolveAssemblyReference.cache

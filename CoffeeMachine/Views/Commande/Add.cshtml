@@ -1,0 +1,175 @@
+﻿@using Microsoft.AspNet.Identity;
+@{
+    Layout = "~/Views/Shared/Index.cshtml";
+    var commande = ViewBag.commande;
+
+    ViewBag.Title = "Add";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+
+        $("#submit").click(function () {
+            if ($("#qtsucre").val().trim() == "") {
+                alert("quantité sucre requise");
+                return;
+            }
+            if ($("#type").val().trim() == "") {
+                alert("type Cafe requise");
+                return;
+            }
+
+            var ownmug = $("#mugckb").prop('checked')
+            if (parseInt($("#qtsucre").val()) >= 0) {
+                $.ajax({
+                    type: "POST",
+                    url: "/Commande/add",
+                    data: {
+                        id: null,
+                        qtsucre: $("#qtsucre").val(),
+                        type: $("#type").val(),
+                        userId: $("#submit").attr("userid"),
+                        mug: ownmug
+                    },
+                 
+                    success: function (response) {
+                        if (response == "True") {
+                            alert("Commande Validée");
+                        } else {
+                            // DoSomethingElse()
+                            alert("Commande non valide");
+                        }
+                    },
+                    error: function (response) {
+                        alert("Commande non valide");
+                    }
+                });
+            }
+            else { confirm("quantité sucre invalide"); }
+        });
+        $("#qtsucre").blur(function () {
+            if (parseInt(this.value) < 0) {
+                if (confirm("quantité sucre invalide")) {
+                    this.val("");
+                    this.focus();
+                }
+            }
+
+
+        })
+    });
+
+
+
+</script>
+<div class="main" id="main">
+    <div class="content single">
+        <!--Article Content -->
+        <div class="article-content clearfix">
+
+
+            <!-- Contact Details -->
+            <div class="row-fluid">
+                <h4> Votre dernière commande:</h4>
+                <div class="col-md-12">
+
+                    <!-- Contact Form -->
+
+
+                    <fieldset>
+                        <div class="grid-row">
+                            <div class="col-6-12">
+                                <label for="name">Type<span class="required"> </span></label>
+                                <select name="type" id="type">
+                                    @if (commande.Count > 0)
+                                    {
+
+                                        var cmd = commande[commande.Count - 1];
+                                        if (cmd.type == "cafe")
+                                        {
+                                            <option value="cafe" selected>Cafe</option>
+                                            <option value="chocolat">chocolat</option>
+                                            <option value="The">The</option>
+
+
+                                        }
+                                        else if (cmd.type == "The")
+                                        {
+                                            <option value="The" selected>The</option>
+                                            <option value="cafe">Cafe</option>
+                                            <option value="chocolat">chocolat</option>
+
+                                        }
+                                        else
+                                        {
+                                            <option value="chocolat" selected>chocolat</option>
+                                            <option value="cafe">Cafe</option>
+                                            <option value="The">The</option>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <option selected>Choisissez votre gout</option>
+                                        <option value="chocolat">chocolat</option>
+                                        <option value="cafe">Cafe</option>
+                                            <option value="The">The</option>
+                                    }
+
+
+                                </select>
+                            </div>
+                            <div class="col-6-12">
+                                <label for="email">Quantité sucre<span class="required"> </span></label>
+                                @if (commande.Count > 0)
+                                {
+                                    var cmd = commande[commande.Count - 1];
+                                    <input type="number" name="qtsucre" id="qtsucre" size="30" required value="@cmd.qtsucre" />
+                                }
+                                else
+                                {
+                                    <input type="number" name="qtsucre" id="qtsucre" size="30" value="0" required />
+
+                                }
+                            </div>
+                             @if (commande.Count > 0)
+                             {
+                                 var cmd = commande[commande.Count - 1];
+
+                                 if (cmd.mug == "t")
+                                 {
+
+                                <input type="checkbox" id="mugckb" name="mug" value="Y" checked>
+
+                                 }
+
+                                 else
+                                 {
+                                <input type="checkbox" id="mugckb" name="mug" value="N">
+
+                                 }
+                             }
+                             else
+                             { <input type="checkbox" id="mugckb" name="mug" value="N">}
+
+                            <label for="mugckb">Votre Mug?</label>
+                        </div>
+                        <input id="submit" type="button" name="submit" value="Commander" userid="@User.Identity.GetUserId()" />
+                    </fieldset>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main Container -->
+		
+
+<!-- Background Section -->
+<div class="background">
+    <div class="background-image" style="background-image: url('assets/images/background/contact.jpg');">
+        <div class="mask"></div>
+    </div>
+
+</div>

@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/Index.cshtml";
+
+    ViewBag.Title = "Home Page";
+}
+
+<div class="background">
+    <!-- BS carousel slider -->
+    <div id="st-slider" class="carousel slide">
+        <!-- Preloader -->
+        <div class="carousel-preloader">
+            <span class="spinner"></span>
+        </div>
+        <!-- Progress bar -->
+        <div class="carousel-progress">
+            <span class="bar"></span>
+        </div>
+
+        <!-- Indicators nav -->
+        <ol class="carousel-indicators">
+            <li data-slide-to="0" data-target="#st-slider" class="active"></li>
+            <li data-slide-to="1" data-target="#st-slider"></li>
+            <li data-slide-to="2" data-target="#st-slider"></li>
+            <li data-slide-to="3" data-target="#st-slider"></li>
+            <li data-slide-to="4" data-target="#st-slider"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+            <!-- Slide -->
+            <div class="item active">
+                <div class="slide-image" style="background-image: url('../../Content/Index/assets/images/slider/1.jpeg');"></div>
+                <div class="carousel-caption">
+                    <div class="title-block animate short-delay">
+                        <h2><a href="#">Bienvenue</a></h2>
+
+                    </div>
+
+                </div>
+                <div class="mask"></div>
+            </div>
+
+            <!-- Slide -->
+            <div class="item">
+                <div class="slide-image" style="background-image: url('../../Content/Index/assets/images/slider/2.jpeg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+                <div class="mask"></div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
