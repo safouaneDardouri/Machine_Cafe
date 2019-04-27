@@ -7,3 +7,13 @@ C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csproj.CoreCompil
 C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.dll
 C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.pdb
 C:\CoffeeMachine\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csprojResolveAssemblyReference.cache
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\bin\CoffeeMachineTest.dll.config
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\bin\CoffeeMachineTest.dll
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\bin\CoffeeMachineTest.pdb
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csprojAssemblyReference.cache
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csproj.CoreCompileInputs.cache
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.csproj.CopyComplete
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.dll
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachineTest\obj\Debug\CoffeeMachineTest.pdb
