@@ -30,3 +30,13 @@ C:\CoffeeMachine\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.csproj.CoreComp
 C:\CoffeeMachine\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.dll
 C:\CoffeeMachine\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.pdb
 C:\CoffeeMachine\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.csprojResolveAssemblyReference.cache
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\bin\CoffeeMachine.core.dll.config
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\bin\CoffeeMachine.core.dll
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\bin\CoffeeMachine.core.pdb
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.csprojAssemblyReference.cache
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.csproj.CoreCompileInputs.cache
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.csproj.CopyComplete
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.dll
+C:\Users\guere\Source\Repos\safouaneDardouri\Machine_Cafe\CoffeeMachine.core\obj\Debug\CoffeeMachine.core.pdb
